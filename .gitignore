@@ -1,14 +1,12 @@
-
-# Created by httpswww.gitignore.ioapipython
-# Edit at httpswww.gitignore.iotemplates=python
+# custom ignores
+*.idea
+*venv
 
 ### Python ###
 # Byte-compiled  optimized  DLL files
 __pycache__
 .py[cod]
 $py.class
-*.idea
-*venv
 
 # C extensions
 .so
