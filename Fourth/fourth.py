@@ -8,15 +8,8 @@ def check_if_duplicates(list_of_elements):
         c = dict(Counter(list_of_elements))
         count = False
         for key in c:
-            if c[key] < 2:
-                return False
-            elif c[key] == 2:
-                if not count:
-                    count = True
-                if count:
-                    return False
-        if count:
-            return True
+            if c[key] == 2:
+                return True
 
 
 
